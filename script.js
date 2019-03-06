@@ -1,5 +1,4 @@
-
-n catnToString(catDiv) {
+function catnToString(catDiv) {
     const title = catDiv.getElementsByClassName('title')[0].innerText;
     const catSpan = catDiv.getElementsByClassName('cat');
     const cat = catSpan.length === 0 ? "" : catSpan[0].innerText;
